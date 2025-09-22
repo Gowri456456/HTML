@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gowri's Spicy Paneer Wrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    /* A bit of personal styling — not required for tests */
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 24px; max-width: 760px; margin: auto; }
+    header { display: flex; gap: 16px; align-items: center; }
+    img.recipe { width: 160px; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    h1 { margin: 0 0 8px 0; }
+    p.intro { margin-top: 0; color: #333; }
+    section { margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Gowri's Spicy Paneer Wrap</h1>
+      <p class="intro">A quick, flavorful vegetarian wrap filled with spiced paneer, crisp veggies, and a tangy yogurt chutney — perfect for lunch or a light dinner.</p>
+    </div>
+    <img class="recipe" src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A rolled paneer wrap sliced in half showing filling" />
+  </header>
+
+  <section>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>200g paneer, cubed</li>
+      <li>2 whole-wheat tortillas or wraps</li>
+      <li>1 small onion, thinly sliced</li>
+      <li>1 cup mixed bell peppers, sliced</li>
+      <li>2 tbsp yogurt + 1 tsp chutney (for dressing)</li>
+      <li>Spice mix: 1 tsp garam masala, 1/2 tsp chili powder, salt to taste</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Marinate paneer cubes with yogurt, garam masala, chili powder, and salt for 10 minutes.</li>
+      <li>Sauté sliced onions and bell peppers in a pan until softened; set aside.</li>
+      <li>Pan-fry the marinated paneer on medium heat until golden on all sides.</li>
+      <li>Warm the tortillas, spread a thin layer of chutney-yogurt, add paneer and veggies, then roll tightly.</li>
+      <li>Slice the wrap in half and serve immediately with extra chutney on the side.</li>
+    </ol>
+  </section>
+
+</body>
+</html>
