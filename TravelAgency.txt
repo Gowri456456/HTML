@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Explore curated group travels and private tours with our travel agency — top itineraries across Europe, mountains, and beaches." />
+  <title>Travel Agency Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* small personal style — not required for tests */
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; max-width: 900px; margin: 28px auto; padding: 0 18px; line-height: 1.5; }
+    header { display:flex; align-items:center; gap:18px; }
+    h1 { margin: 0 0 8px 0; }
+    p.lead { margin-top: 0; color:#333; }
+    ul { list-style: disc; margin-left: 20px; }
+    figure { display:inline-block; width: 28%; margin: 12px 1%; vertical-align: top; text-align:center; }
+    figure img { width:100%; height:auto; border-radius:6px; }
+    figcaption { margin-top:6px; font-size:0.95rem; }
+    a { color: #0b6cff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Explore With Voyager Travel Co.</h1>
+      <p class="lead">Discover unforgettable travel opportunities — from lively group adventures to tailored private tours designed for your perfect getaway.</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Packages</h2>
+    <p>We offer flexible packages to suit different travel styles. Choose a ready-made group itinerary or book a private, custom-tailored tour for your party.</p>
+
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Top Itineraries</h2>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Colosseum in Rome at sunset" />
+      </a>
+      <figcaption>Ancient Rome: History & Culture (7 days)</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Snow-capped Alps mountains with clear sky" />
+      </a>
+      <figcaption>Alpine Escape: Mountains & Hiking (6 days)</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical beach with clear blue water" />
+      </a>
+      <figcaption>Tropical Shores: Relax & Rejuvenate (5 days)</figcaption>
+    </figure>
+
+  </section>
+
+</body>
+</html>

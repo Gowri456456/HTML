@@ -1,0 +1,62 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature Video Compilation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; line-height: 1.6; }
+    h1, h2 { color: #2a4d69; }
+    section { margin-bottom: 40px; }
+    iframe { border: none; display: block; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Majestic Nature Video Compilation</h1>
+    <p>Immerse yourself in the beauty of our planet with this curated collection of breathtaking nature videos—mountains, oceans, and forests captured in stunning detail.</p>
+
+    <section>
+      <h2>Mountain Wonders</h2>
+      <p>Experience the serene vistas of towering peaks and snowy landscapes.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/Scxs7L0vhZ4" 
+        title="Breathtaking Mountain Views" 
+        width="560" 
+        height="315" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Ocean Depths</h2>
+      <p>Dive into the mysterious world beneath the waves and encounter marine life up close.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/a3ICNMQW7Ok" 
+        title="Underwater Ocean Life" 
+        width="560" 
+        height="315" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Enchanting Forests</h2>
+      <p>Wander through lush green forests where sunlight filters through the trees and wildlife thrives.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/6LTmL31K0oE" 
+        title="Peaceful Forest Scenes" 
+        width="560" 
+        height="315" 
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of index.html **
+
