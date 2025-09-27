@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Hub</title>
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <h1>Event Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#upcoming-events">Upcoming Events</a></li>
+        <li><a href="#past-events">Past Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+    <!-- Upcoming Events Section -->
+    <section id="upcoming-events">
+      <h2>Upcoming Events</h2>
+
+      <article>
+        <h3>City Music Festival</h3>
+        <p>
+          Enjoy live performances from local bands and international artists.
+          <br><small>Date: October 15, 2025</small>
+        </p>
+      </article>
+
+      <article>
+        <h3>Tech Innovators Meetup</h3>
+        <p>
+          A gathering of cutting-edge startups and tech enthusiasts.
+          <br><small>Date: November 2, 2025</small>
+        </p>
+      </article>
+    </section>
+
+    <!-- Past Events Section -->
+    <section id="past-events">
+      <h2>Past Events</h2>
+
+      <article>
+        <h3>Art & Culture Fair</h3>
+        <p>
+          A celebration of art, crafts, and cultural heritage.
+          <br><small>Date: August 2025</small>
+        </p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Art and culture fair exhibition hall">
+      </article>
+
+      <article>
+        <h3>Community Sports Day</h3>
+        <p>
+          Fun outdoor activities and friendly competitions for all ages.
+          <br><small>Date: July 2025</small>
+        </p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="People playing sports in a community park">
+      </article>
+    </section>
+  </main>
+</body>
+</html>
