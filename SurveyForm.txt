@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+<body>
+
+  <!-- Page Title -->
+  <h1 id="title">Customer Feedback Survey</h1>
+
+  <!-- Short Description -->
+  <p id="description">We value your feedback! Please fill out this survey to help us improve our services.</p>
+
+  <!-- Survey Form -->
+  <form id="survey-form">
+
+    <!-- Name Field -->
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <!-- Email Field -->
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <!-- Number Field -->
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" name="number" placeholder="Enter your age" min="1" max="120">
+
+    <!-- Dropdown -->
+    <label for="dropdown">Which service did you use?</label>
+    <select id="dropdown" name="service">
+      <option value="room-service">Room Service</option>
+      <option value="restaurant">Restaurant</option>
+      <option value="spa">Spa</option>
+      <option value="other">Other</option>
+    </select>
+
+    <!-- Radio Buttons -->
+    <p>Would you recommend us?</p>
+    <input type="radio" id="radio-yes" name="recommend" value="yes">
+    <label for="radio-yes">Yes</label>
+
+    <input type="radio" id="radio-no" name="recommend" value="no">
+    <label for="radio-no">No</label>
+
+    <!-- Checkboxes -->
+    <p>What aspects did you enjoy? (Select all that apply)</p>
+    <input type="checkbox" id="check-cleanliness" name="enjoy" value="cleanliness">
+    <label for="check-cleanliness">Cleanliness</label>
+
+    <input type="checkbox" id="check-service" name="enjoy" value="service">
+    <label for="check-service">Service</label>
+
+    <input type="checkbox" id="check-location" name="enjoy" value="location">
+    <label for="check-location">Location</label>
+
+    <!-- Textarea -->
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" cols="30" rows="5" placeholder="Enter your comments here..."></textarea>
+
+    <!-- Submit Button -->
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
